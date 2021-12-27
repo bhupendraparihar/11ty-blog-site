@@ -1,7 +1,7 @@
 ---
 title: Web Scraping through YQL and nodejs
 date: 2020-05-22 12:33:17
-tags: ["post", "featured"]
+tags: ["post"]
 image: /assets/blog/article-2.jpg
 ---
 

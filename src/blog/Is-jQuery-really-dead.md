@@ -2,7 +2,8 @@
 title: Is jQuery really dead
 date: 2020-05-24 03:22:13
 tags: ["post", "featured"]
-image: /assets/blog/article-2.jpg
+image: /assets/blog/jquery-dead.jpg
+description: What we have learnt from jQuery.
 ---
 
 
@@ -12,7 +13,7 @@ The fundamental concept of jQuery is its nature of hiding complexity. I bet many
 
 Let’s recall the problem jQuery solved for us and its alternative solution. First and foremost is jQuery selectors. We can use the power of CSS selectors with jQuery. Introduction of querySelctor and querySelectorAll has already eliminated the use of jQuery selectors.
 
-Ajax call by jQuery. jQuery came up a long way from success and failure callback syntax to syntax returning promises for ajax call but now developers are more towards reactive programming so using RxJS.
+Ajax call by jQuery. jQuery came up a long way from success and failure callback syntax to syntax returning promises for ajax call but now developers are more towards reactive programming so using RxJS or using fetch api(which is widely supported in most of the browser).
 
 Who can forget the contribution jQuery made in the field of animation? How to move stuff here and there and at what rate. CSS3 animation APIs has already fixed these things with more efficiency (CSS uses GPU not CPU).
 

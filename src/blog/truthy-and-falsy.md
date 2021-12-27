@@ -1,7 +1,7 @@
 ---
 title: truthy and falsy
 date: 2020-05-22 12:07:41
-tags: ["post", "featured"]
+tags: ["post"]
 image: /assets/blog/article-2.jpg
 ---
 In JavaScript, apart from Boolean values like true and false, all other values also have some boolean value corresponds to it.

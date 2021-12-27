@@ -2,7 +2,7 @@
 title: Implement synchronous run for asynchronous tasks
 date: 2020-05-24 03:24:34
 tags: ["post", "featured"]
-image: /assets/blog/article-2.jpg
+image: /assets/blog/synchronization.jpg
 ---
 
 This is a programming problem of running two asynchronous function in synchronous manner.  We have few async tasks t1, t2 and t3.

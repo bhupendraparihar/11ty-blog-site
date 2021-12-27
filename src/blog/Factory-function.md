@@ -4,6 +4,7 @@ date: 2020-05-24 03:31:57
 author: Bhupendra Parihar
 tags: ["post", "featured"]
 image: /assets/blog/article-2.jpg
+description: A factory function is any function which is not a class or constructor that returns a new object. In JavaScript, any function can return an object. When it does so without the new keyword, it’s a factory function.
 ---
 
 What is factory function? And before this question, whatever it is, why I am going to use it. Hah!

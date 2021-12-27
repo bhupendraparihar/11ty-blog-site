@@ -1,7 +1,7 @@
 ---
 title: public and private
 date: 2020-05-22 12:01:43
-tags: ["post", "featured"]
+tags: ["post"]
 image: /assets/blog/article-2.jpg
 ---
 

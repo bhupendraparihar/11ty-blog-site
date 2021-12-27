@@ -3,7 +3,7 @@ title: Implementing Throttle Function
 author: Bhupendra Parihar
 date: 2020-05-23 16:15:32
 tags: ["post", "featured"]
-image: /assets/blog/article-2.jpg
+image: /assets/blog/programmer.jpg
 description: What is a throttle function. "throttle" function returns a function which will run only once with in the time specified. This is very useful when we wish to perform some operation only once even when the function is called multiple times.
 ---
 

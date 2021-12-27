@@ -1,7 +1,7 @@
 ---
 title: SASS compilation with grunt
 date: 2020-05-22 12:27:02
-tags: ["post", "featured"]
+tags: ["post1", "featured1"]
 image: /assets/blog/article-2.jpg
 ---
 When SASS file is compiled, you get .CSS file. I am not going to explain the syntax of SASS, instead of that I will explain how it is setup with grunt so that you can compile the SASS file easily.

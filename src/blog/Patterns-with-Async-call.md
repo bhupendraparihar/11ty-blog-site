@@ -2,7 +2,7 @@
 title: "Patterns with Async call : Beautiful Javascript"
 date: 2020-05-23 16:27:09
 tags: ["post", "featured"]
-image: /assets/blog/article-2.jpg
+image: /assets/blog/code1.jpg
 ---
 </title>
 

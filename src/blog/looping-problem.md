@@ -1,8 +1,8 @@
 ---
 title: looping problem
 date: 2020-05-22 12:13:48
-tags: ["post", "featured"]
-image: /assets/blog/article-2.jpg
+tags: ["post"]
+image: /assets/blog/loop.jpg
 ---
 I was looking into a problem of closure inside loop in stackoverflow. It is as follows..
 

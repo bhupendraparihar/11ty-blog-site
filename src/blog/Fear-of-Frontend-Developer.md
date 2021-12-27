@@ -3,6 +3,7 @@ title: Fear of Frontend Developer
 date: 2020-05-23 16:34:55
 author: Bhupendra Parihar
 tags: ["post", "featured"]
+image: /assets/blog/front-end-framework.png
 ---
 I slept for a night just for a few hours and when I woke up there is a new JavaScript framework born. The irony is there are many new framework and library coming out who I don’t know about. I don’t know how much I need to upgrade my self. I hope all the web developer interview should focus on basics. But this is not the perfect world. Some company wants a angular guy, who know how to code in angular, that's it.
 

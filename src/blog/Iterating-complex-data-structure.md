@@ -2,7 +2,8 @@
 title: Iterating complex data structure
 date: 2020-05-24 03:29:22
 tags: ["post", "featured"]
-image: /assets/blog/article-2.jpg
+image: /assets/blog/iterator.jpg
+description: Implement iterator to iterate through complex data structure.
 ---
 
 Let say we have an array of authors

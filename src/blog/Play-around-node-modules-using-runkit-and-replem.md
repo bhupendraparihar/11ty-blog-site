@@ -1,7 +1,7 @@
 ---
 title: Play around node modules using runkit and replem
 date: 2020-05-23 16:21:41
-tags: ["post", "featured"]
+tags: ["post"]
 image: /assets/blog/article-2.jpg
 ---
 
