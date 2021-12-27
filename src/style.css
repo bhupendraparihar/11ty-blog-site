@@ -195,9 +195,16 @@ section,
 /* //////////////////////
   Header
   /////////////////////// */
+.page-header a {
+  text-decoration: none;
+  color: GREY;
+}
+.page-header a:hover {
+  color: black;
+}
 
 .page-header {
-  padding: 2em 0;
+  padding: 2em 0 0 0;
 }
 
 .page-header__content {
@@ -271,6 +278,7 @@ section,
   /////////////////////// */
 
   .main-article {
+    margin-top: 2rem;
     margin-bottom: 3rem;
   }
 
@@ -384,4 +392,19 @@ section,
 .btn--neutral:focus {
   color: var(--clr-neutral-100);
   background-color: var(--clr-neutral-900);
+}
+
+.logo {
+  font-size: 50px;
+  font-weight: 600;
+  color: GREY;
+  font-style: italic;
+}
+
+.logo.footer {
+  color: white;
+}
+.logo.footer a {
+  text-decoration: none;
+  color: white;
 }
