@@ -2,7 +2,7 @@
 node_modules
 
 # build artefacts
-public
+# public
 css
 
 # secrets and errors
