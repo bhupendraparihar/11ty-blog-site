@@ -19,16 +19,16 @@ jobs:
           node-version: 14
 
       - name: Install Dependencies
-        run: npm install  # Adjust if you're using a different package manager
+        run: npm install # Adjust if you're using a different package manager
 
       - name: Build Blog
-        run: npm run build  # Adjust to your build command
+        run: npm run build # Adjust to your build command
 
       - name: Publish to Second Repository
         run: |
           git clone https://github.com/bhupendraparihar/blog.git
           cp -r public/* blog/
-          cd second-repo
+          cd blog
           git config user.name "Bhupendra Parihar"
           git config user.email "bhupendraparihar@outlook.com"
           git add .
