@@ -1,0 +1,36 @@
+name: Build and Deploy Blog
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+
+      - name: Install Dependencies
+        run: npm install  # Adjust if you're using a different package manager
+
+      - name: Build Blog
+        run: npm run build  # Adjust to your build command
+
+      - name: Publish to Second Repository
+        run: |
+          git clone https://github.com/bhupendraparihar/blog.git
+          cp -r public/* blog/
+          cd second-repo
+          git config user.name "Bhupendra Parihar"
+          git config user.email "bhupendraparihar@outlook.com"
+          git add .
+          git commit -m "Update built blog"
+          git push origin main
