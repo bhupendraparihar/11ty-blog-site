@@ -3,7 +3,7 @@ title: Docker Image with NodeJS
 author: Bhupendra Parihar
 date: 2023-10-04 16:15:32
 tags: ['post', 'featured']
-image: /assets/blog/code3.jpg
+image: /assets/blog/synchronization.jpg
 description: How to create a docker image from a node js project and run it as a docker container
 ---
 
