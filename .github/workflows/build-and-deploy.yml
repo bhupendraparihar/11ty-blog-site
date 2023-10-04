@@ -8,10 +8,14 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      DEPLOY_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
+
+      - run: git config --global url.https://$DEPLOY_TOKEN@github.com/.insteadOf https://github.com/
 
       - name: Setup Node.js
         uses: actions/setup-node@v2
